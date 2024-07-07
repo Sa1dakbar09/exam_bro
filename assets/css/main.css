@@ -1,0 +1,428 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:300,400,500&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Philosopher:400,700');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    /* font-family: 'Roboto', sans-serif; */
+    /* font-family: 'Philosopher', sans-serif; */
+}
+
+.container {
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 40px 80px 0 80px;
+}
+
+.head_1 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 40px;
+}
+
+.head_1 ul {
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 45px;
+}
+
+.head_1 ul li {
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 18.75px;
+    text-align: left;
+    color: #36322c;
+    cursor: pointer;
+    transition: .3s;
+}
+
+.head_1 ul li:hover {
+    color: #DC780B;
+    font-weight: 500;
+}
+
+header button {
+    width: 155px;
+    height: 46px;
+    border-radius: 5px;
+    border: 2px solid transparent;
+    background: #DC780B;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 18.75px;
+    color: #FFFFFF;
+    cursor: pointer;
+    transition: .3s;
+    padding-top: 2px;
+}
+
+header button:hover {
+    background-color: transparent;
+    border-color: #DC780B;
+    color: #DC780B;
+}
+
+/* //Main */
+
+main {
+    padding: 0 80px;
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    align-items: center;
+}
+
+main .left_main {
+    height: 100%;
+    z-index: 1;
+    width: 45%;
+    padding: 160px 0 0 0;
+}
+
+.left_main h1 {
+    font-family: 'Philosopher', sans-serif;
+    font-size: 48.83px;
+    font-weight: 700;
+    line-height: 60px;
+    color: #150C01;
+}
+
+.left_main p {
+    padding: 30px 0;
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 24px;
+    font-family: 'Roboto', sans-serif;
+    color: #36322c;
+}
+
+.left_main div {
+    display: flex;
+    max-width: 400px;
+    align-items: center;
+    gap: 40px;
+    margin-top: 20px;
+}
+
+main img {
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+.main_btn_1 {
+    width: 158px;
+    height: 60px;
+    border-radius: 5px;
+    background: #DC780B;
+    border: 2px solid transparent;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 18.75px;
+    color: white;
+    cursor: pointer;
+    transition: .3s;
+}
+
+.main_btn_1:hover {
+    background-color: transparent;
+    border-color: #DC780B;
+    color: #DC780B;
+}
+
+.main_btn_2 {
+    width: 158px;
+    height: 60px;
+    border-radius: 5px;
+    color: #DC780B;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 18.75px;
+    cursor: pointer;
+    border: 2px solid #f5f5f5;
+    background-color: transparent;
+    transition: .3s;
+}
+
+.main_btn_2:hover {
+    background-color: #DC780B;
+    color: white;
+    border-color: transparent;
+}
+
+/* Section -1 */
+
+#sec_1 {
+    padding: 100px;
+    margin-top: 100px;
+}
+
+#sec_1 h2 {
+    padding: 15px 0;
+    font-family: 'Roboto', sans-serif;
+    font-size: 19px;
+    font-weight: 500;
+    line-height: 18.75px;
+    letter-spacing: 0.2em;
+    text-align: center;
+    color: #DC780B;
+    text-transform: uppercase;
+}
+
+#sec_1 h1 {
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 35px;
+    text-align: left;
+    font-family: 'Philosopher', sans-serif;
+    text-align: center;
+    color: #150C01;
+}
+
+#sec_1 .sec_div {
+    padding-top: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 100px;
+}
+
+.apple {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.apple div {
+    padding: 25px 27px;
+    background-color: #ECECEC;
+    border-radius: 50%;
+}
+
+.apple div.strange {
+    background: #F6E4D1;
+}
+
+.apple img {
+    width: 50px;
+}
+
+.apple h3 {
+    font-family: 'Philosopher', sans-serif;
+    font-size: 27px;
+    font-weight: 700;
+    line-height: 24px;
+    text-align: left;
+    color: #150C01;
+    padding: 35px 0 0 0;
+}
+
+.apple p {
+    padding: 18px 0 0 0;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    color: #534c40;
+}
+
+/* Section 2 */
+#sec_2 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px 100px;
+    gap: 10%;
+}
+
+#sec_2 img {
+    border-radius: 40px;
+}
+
+
+.number1 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 19px;
+    font-weight: 500;
+    line-height: 18.75px;
+    letter-spacing: 0.2em;
+    color: #DC780B;
+    text-transform: uppercase;
+}
+
+.number2 {
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 45px;
+    font-family: 'Philosopher', sans-serif;
+    color: #150C01;
+    padding-top: 15px;
+}
+
+.number3 {
+    padding: 23px 0 0 0;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+    font-family: 'Roboto', sans-serif;
+    color: #534c40;
+}
+
+#sec_2 button {
+    width: 160px;
+    height: 55px;
+    background: #DC780B;
+    border: 2px solid transparent;
+    border-radius: 5px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 18.75px;
+    text-align: center;
+    margin-top: 35px;
+    color: #FFFFFF;
+    cursor: pointer;
+    transition: .3s;
+}
+
+#sec_2 button:hover {
+    background-color: transparent;
+    border-color: #DC780B;
+    color: #DC780B;
+}
+
+/* Section -3    */
+
+#sec_3 {
+    padding: 40px 100px;
+}
+
+#sec_3 h2 {
+    padding: 15px 0;
+    font-family: 'Roboto', sans-serif;
+    font-size: 19px;
+    font-weight: 500;
+    line-height: 18.75px;
+    letter-spacing: 0.2em;
+    text-align: center;
+    color: #DC780B;
+    text-transform: uppercase;
+}
+
+#sec_3 h1 {
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 35px;
+    text-align: left;
+    font-family: 'Philosopher', sans-serif;
+    text-align: center;
+    color: #150C01;
+}
+
+#sec_3>p {
+    padding: 18px 0 0 0;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    color: #534c40;
+    max-width: 750px;
+    margin: 0 auto;
+    padding: 30px 0 20px 0;
+    margin-bottom: 15px;
+}
+
+.card_box {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 30px;
+    padding-top: 30px;
+}
+
+.card {
+    border: 1px solid #dbdada;
+    border-radius: 10px;
+}
+
+.card img {
+    width: 100%;
+}
+
+.past_card {
+    padding: 25px;
+}
+
+.past_card div:first-child {
+    display: flex;
+    justify-content: space-between;
+}
+
+.past_card h3 {
+    font-family: 'Philosopher', sans-serif;
+    font-size: 27px;
+    font-weight: 700;
+    color: #150C01;
+}
+
+.past_card p {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+    font-family: 'Roboto', sans-serif;
+    color: #534c40;
+    padding: 15px 0 10px 0;
+}
+
+.past_card div:last-child {
+    padding: 10px 0 0 0;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+
+.past_card div:last-child button {
+    padding: 3px 10px;
+    border-radius: 5px;
+    color: #FFFFFF;
+    background: #DC780B;
+    border: 2px solid transparent;
+    font-size: 28px;
+    transition: .3s;
+    cursor: pointer;
+}
+
+.past_card div:last-child button:hover {
+    color: #DC780B;
+    background: transparent;
+    border-color: #DC780B;
+}
+
+.past_card div:last-child img {
+    width: 100px;
+}
+
+#sec_3_btn {
+    margin: 4vw 42% 1vw 42%;
+    width: 170px;
+    height: 50px;
+    text-align: center;
+    padding-top: 4px;
+}
