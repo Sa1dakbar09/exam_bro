@@ -426,3 +426,306 @@ main img {
     text-align: center;
     padding-top: 4px;
 }
+
+/* Section 4 */
+#sec_4 div:first-child {
+    background: #FBF1E7;
+    max-width: 100%;
+    height: 518px;
+    padding: 100px 100px 100px;
+}
+
+.sec_4_div {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: -120px;
+}
+
+#sec_4 {
+    margin-top: 120px;
+}
+
+#sec_4 img {
+    border-radius: 50px;
+}
+
+.a1 {
+    background: #150C01;
+    color: white;
+    width: 163px;
+    height: 48px;
+
+    display: flex;
+    align-items: center;
+    border: 2px solid #150C01;
+    border-radius: 5px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 18.75px;
+    text-align: left;
+    justify-content: space-evenly;
+    margin-top: 40px;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.a2 {
+    cursor: pointer;
+    font-family: 'Roboto', sans-serif;
+    background: #FBF1E7;
+    text-decoration: none;
+    color: black;
+    width: 163px;
+    height: 48px;
+
+
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    border: 2px solid rgb(207, 197, 197);
+    justify-content: space-evenly;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 18.75px;
+    text-align: left;
+    margin-left: 40px;
+    margin-top: 40px;
+}
+
+
+
+.box5 {
+    display: flex;
+
+}
+
+.box5 a {
+    text-decoration: none;
+}
+
+/* section5 */
+
+#sec_5 div {
+    max-width: 804px;
+    margin: 200px auto;
+    padding: 20px 80px;
+    text-align: center;
+    position: relative;
+}
+
+#sec_5 h2 {
+    padding: 15px 0;
+    font-family: 'Roboto', sans-serif;
+    font-size: 19px;
+    font-weight: 500;
+    line-height: 18.75px;
+    letter-spacing: 0.2em;
+    text-align: center;
+    color: #DC780B;
+    text-transform: uppercase;
+}
+
+#sec_5 h1 {
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 35px;
+    text-align: left;
+    font-family: 'Philosopher', sans-serif;
+    text-align: center;
+    color: #150C01;
+}
+
+.p1 {
+    padding: 18px 0 0 0;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    color: #534c40;
+    max-width: 750px;
+    margin: 0 auto;
+    padding: 30px 0 20px 0;
+    margin-bottom: 15px;
+}
+
+.p2 {
+    padding: 18px 0 0 0;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    color: black;
+    max-width: 750px;
+    margin: 0 auto;
+    padding: 30px 0 20px 0;
+    margin-bottom: 15px;
+}
+
+.p3 {
+    padding: 18px 0 0 0;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    color: black;
+    max-width: 750px;
+    margin: 0 auto;
+    padding: 30px 0 5px 0;
+}
+
+.p4 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 14.06px;
+    text-align: center;
+    color: #534c40;
+}
+
+
+.n1 {
+    border-radius: 50%;
+}
+
+.n2 {
+    padding: 0 285px;
+}
+
+.strelka1 {
+    position: absolute;
+    left: 0;
+    top: 360px;
+}
+
+.strelka2 {
+    position: absolute;
+    right: 0;
+    top: 360px;
+}
+
+/* section 6 */
+#sec_6 {
+    width: 100%;
+    height: 448px;
+    background-color: rgb(240, 219, 224);
+}
+
+#sec_6 h2 {
+
+    padding: 15px 0;
+    font-family: 'Roboto', sans-serif;
+    font-size: 19px;
+    font-weight: 500;
+    line-height: 18.75px;
+    letter-spacing: 0.2em;
+    text-align: center;
+    color: #DC780B;
+    text-transform: uppercase;
+}
+
+#sec_6 h1 {
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 35px;
+    text-align: left;
+    font-family: 'Philosopher', sans-serif;
+    text-align: center;
+    color: #150C01;
+    padding: 10px 0px;
+}
+
+.section_6_div {
+    height: 400px;
+    width: 70%;
+    margin: 100px auto;
+    max-width: 100%;
+    margin: 100px 200px;
+
+    padding: 100px 30px;
+
+}
+
+input {
+    margin-top: 30px;
+    width: 650px;
+    height: 75px;
+    padding-left: 20px;
+    border: 2px solid transparent;
+    border-radius: 10px;
+    float: left;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 40.6px;
+    text-align: left;
+
+}
+
+.b1 {
+    color: white;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 40.6px;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    margin-top: 30px;
+    width: 200px;
+    float: left;
+}
+
+#sec_6 button {
+    /* width: 400px; */
+    height: 75px;
+    background: #DC780B;
+    border: 2px solid transparent;
+    border-radius: 10px;
+
+}
+
+.box5 {
+    margin: 30px 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* footer */
+footer {
+    background: #252525;
+    height: 429px;
+}
+
+.k1 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+footer h3 {
+
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 20.16px;
+    text-align: left;
+    color: white;
+    font-family: 'Philosopher', sans-serif;
+}
+
+footer p {
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 16.41px;
+    text-align: left;
+    color: rgb(180, 166, 166);
+    padding-top: 20px;
+}
+
+.k1 div {
+    margin: 130px 100px;
+}
